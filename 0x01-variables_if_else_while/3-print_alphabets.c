@@ -7,18 +7,15 @@
 
 int main(void)
 {
-	char lowerc = 'a';
-	char upperc = 'A';
+	char lowerc
 
-	for (lowerc == 'a'; 'a' <= 'z'; lowerc++)
-	{
+	for (lowerc = 'a'; lowerc <= 'z'; lowerc++)
 		putchar(lowerc);
-	}
-	while (upperc == 'A'; 'A' <= 'Z'; upperc++)
-	{
-		putchar(upperc);
-	}
+
+	for (lowerc = 'A'; lowerc <= 'Z'; lowerc++)
+		putchar(lowerc);
+
 	putchar('\n')
-	
+
 	return (0);
 }
